@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+
+<head>
+  <link rel="stylesheet" href="home.css">
+  <style>
+  #map {
+    width: 400px;
+    height: 300px;
+    background-color: #CCC;
+    margin-left: auto;
+    margin-right: auto;
+   }
+</style>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.6953, -73.4583),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+  <title>Csa Pick up location</title>
+</head>
+<body>
+
+  <header>
+    <h1>Pickup Dates and Locations</h1>
+  </header>
+
+
+  <nav>
+      <ul>
+        <li><a href="Csainfo.html">CSA Options</a></li>
+        <li><a href="Location.html">Pickup Locations</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      <ul>
+  </nav>
+
+<main>
+  <p>imbed some kind of map w/ locations indentified</p>
+  <div id="map"></div>
+  <div id="PList">
+
+  <h2> List of Pickup Locations and Dates</h2>
+  <h3>Saturday Pickup</h3>
+  <p>Plattsburgh Hannafords<p>
+    <p style="bold">11:00am to 3:00pm</p>
+  <h3>Tuesday Pickup</h3>
+    <p>Suny Plattsburgh</p>
+      <p style="bold">2:00pm to 6:00pm</p>
+  <h3>Friday Pickup</h3>
+  <p>Clinton Community college</p>
+  <p style="bold">3:00pm to 8:00pm</p>
+
+</div>
+</main>
+<footer></footer>
+</body>
+</html>

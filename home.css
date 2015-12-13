@@ -1,0 +1,75 @@
+#wrapper { background-color: whitesmoke;
+            margin: auto;
+
+
+          }
+body { background-color: cadetblue;
+        font-family: serif, arial, Georgia;  }
+header {
+         border-style: solid;
+         background-image: url(https://static.pexels.com/photos/6535/field-agriculture-farm-cereals.jpg)
+
+
+}
+button { border-style: inset; }
+main {
+  border-style: solid;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    max-width: 100%;
+    font-family: inherit;
+        }
+
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: inherit;
+  }
+li a:hover {
+  background-color: #111;
+          }
+section { margin: auto;
+          text-align: center;
+          position: static;
+          padding-bottom: 20px;
+          font-family: inherit;
+
+
+
+}
+form { text-align: center;
+        margin: auto;
+       display: inline-block;
+       font-family: inherit;
+
+
+}
+footer { text-align: center;
+        padding-top: 50px;
+        background-color: #333;
+        border-style: inset;
+        margin: auto;
+        font-family: inherit;
+
+
+
+}
+#PList { text-align: center;
+          display: list-item;}
+#info { text-align: center;
+        }
+
+#foot {
+
+}
