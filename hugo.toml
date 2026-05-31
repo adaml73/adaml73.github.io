@@ -1,7 +1,6 @@
 baseURL = "https://yourusername.github.io/"
 languageCode = "en-us"
 title = "My Blog"
-theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
 
