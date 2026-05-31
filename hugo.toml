@@ -1,0 +1,53 @@
+baseURL = "https://yourusername.github.io/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+
+[permalinks]
+  posts = "/:year/:month/:slug.html"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+  description = "My blog"
+  author = "Your Name"
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Your Name 👋"
+    Content = "Welcome to my blog."
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 3
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  threshold = 0.4
+  keys = ["title", "permalink", "summary", "content"]
