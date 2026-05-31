@@ -7,7 +7,7 @@ buildDrafts = false
 
 [pagination]
   pagerSize = 10
-  
+
 [permalinks]
   posts = "/:year/:month/:slug.html"
 
@@ -53,3 +53,7 @@ buildDrafts = false
   shouldSort = true
   threshold = 0.4
   keys = ["title", "permalink", "summary", "content"]
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
