@@ -14,6 +14,9 @@ All new posts will be here and I would gradually be moving the archive over.
 
 My motivations for moving are the following. 
 
-1. portability - Google has me locked in. But Hugo is OS, and I could run this stack almost anyhwere
+1. portability - Google has me locked in. But Hugo is OS, and I could run this stack almost anywhere
 
-2. less restrictive drafting process - Markdown combined with git feels familiar, lower barrier of entry to start drafting 
+2. less restrictive drafting process - Markdown combined with git feels familiar, lower barrier of entry to start drafting and eventually publish
+
+
+
