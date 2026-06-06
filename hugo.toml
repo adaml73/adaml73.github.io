@@ -1,11 +1,11 @@
-baseURL = "https://yourusername.github.io/"
+baseURL = "https://adaml73.github.io/"
 languageCode = "en-us"
 title = "My Blog"
 enableRobotsTXT = true
 buildDrafts = false
 
 [pagination]
-  pagerSize = 10
+  pagerSize = 10f
 
 [permalinks]
   posts = "/:year/:month/:slug.html"
