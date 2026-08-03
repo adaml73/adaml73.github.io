@@ -26,7 +26,7 @@ buildDrafts = false
   author = "Your Name"
 
   [params.homeInfoParams]
-    Title = "Hi, I'm Your Name 👋"
+    Title = "Hi, I'm Adam Lyng 👋"
     Content = "Welcome to my blog."
 
   [[params.socialIcons]]
